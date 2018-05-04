@@ -1,6 +1,4 @@
-//const contentBox = document.querySelector("#content");
-
-
+//The following Sha3 related class and functions are fetched from https://www.movable-type.co.uk/scripts/sha3.html
 class Sha3 {
 
     /*
@@ -331,8 +329,7 @@ Sha3.Long = class {
 
 
 
-
-
+//The following four helper functions are fetched from https://webkit.org/demos/webcrypto/aes-gcm.html.
 function hexStringToUint8Array(hexString)
 {
     if (hexString.length % 2 != 0)
